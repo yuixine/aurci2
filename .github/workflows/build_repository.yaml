@@ -20,26 +20,7 @@ jobs:
       uses: kopp/build-aur-packages@v1
       with:
         packages: >
-          arduino-ide-bin
-          azure-cli
-          conan
-          google-cloud-cli
-          micronucleus-git
-          microsoft-edge-stable-bin
-          neovim-symlinks
-          onedrive-abraunegg
-          python-pydub
-          python-selenium
-          selenium-manager
-          uv-bin
-          jmtpfs
-          qtfm
-          skypeforlinux-stable-bin
-          srecord
-          tp-battery-mode
-          vdhcoapp-bin
-          visual-studio-code-bin
-          xfig
+          hyper8
 
     - name: List generated Files
       run: ls -1 > ${{ github.workspace }}/files.txt
