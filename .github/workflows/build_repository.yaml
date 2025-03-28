@@ -23,6 +23,7 @@ jobs:
           hyper8
           nchat
           hyprswitch
+          newsraft
 
     - name: List generated Files
       run: ls -1 > ${{ github.workspace }}/files.txt
