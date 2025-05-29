@@ -23,6 +23,7 @@ jobs:
           hyper8
           nchat
           hyprswitch
+          64gram-desktop
           newsraft
 
     - name: List generated Files
