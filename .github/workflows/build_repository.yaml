@@ -25,6 +25,7 @@ jobs:
           hyprswitch
           powerstat
           newsraft
+          min
 
     - name: List generated Files
       run: ls -1 > ${{ github.workspace }}/files.txt
